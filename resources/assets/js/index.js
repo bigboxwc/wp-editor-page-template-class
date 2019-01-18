@@ -1,3 +1,5 @@
+/* global wp */
+
 /**
  * WordPress dependencies.
  */
@@ -10,17 +12,16 @@ const { registerPlugin } = wp.plugins;
  * Generate a valid CSS class name from a string.
  *
  * @param {string} string The string to validate.
- * @return string
+ * @return string Correct CSS class name.
  */
 const getCssClassName = ( string ) => {
 	const dot = string.replace( /\./g, '-' );
 	const other = dot.replace( /[!\"#$%&'\(\)\*\+,\/:;<=>\?\@\[\\\]\^`\{\|\}~]/g, '' );
 
 	return `page-template-${ other }`;
-}
+};
 
 class UpdateBody extends Component {
-
 	/**
 	 * Add initial class.
 	 */
