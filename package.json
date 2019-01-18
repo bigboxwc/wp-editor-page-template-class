@@ -1,0 +1,49 @@
+{
+	"name": "bigbox-wp-editor-page-template-class",
+	"version": "1.0.0",
+	"title": "Editor Page Template Class",
+	"author": "Spencer Finnell",
+	"description": "WordPress plugin",
+	"license": "GPL-2.0-or-later",
+	"main": "webpack.config.js",
+	"engines": {
+		"node": ">=8.0.0",
+		"npm": ">=6.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "7.2.2",
+		"@wordpress/babel-preset-default": "3.0.2",
+		"@wordpress/browserslist-config": "2.2.3",
+		"@wordpress/eslint-plugin": "1.0.1",
+		"babel-loader": "8.0.5",
+		"cross-env": "5.2.0",
+		"eslint": "5.12.0",
+		"webpack": "4.28.4",
+		"webpack-cli": "3.2.1"
+	},
+	"babel": {
+		"presets": [
+			"@wordpress/babel-preset-default"
+		]
+	},
+	"browserslist": [
+		"extends @wordpress/browserslist-config"
+	],
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack",
+		"check-licenses": "./bin/check-npm-licenses.sh; exit 0",
+		"dev": "cross-env NODE_ENV=default webpack --watch",
+		"lint": "./node_modules/.bin/eslint .; exit 0",
+		"lint:fix": "./node_modules/.bin/eslint . --fix; exit 0",
+		"package-plugin": "./bin/package-plugin.sh",
+		"setup-plugin": "./bin/setup-plugin.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bigboxwc/wp-editor-page-template-class/"
+	},
+	"bugs": {
+		"url": "https://github.com/bigboxwc/wp-editor-page-template-class/issues"
+	},
+	"homepage": "https://bigboxwc.com"
+}
