@@ -1,6 +1,6 @@
 # Editor Page Template Class
 
-Add the selected page template's class to the `.editor-styles-wrapper` <div>.
+Add the selected page template's class to the `.editor-styles-wrapper` `<div>`.
 
 Example:
 
