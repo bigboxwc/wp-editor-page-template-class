@@ -17,7 +17,7 @@
 		"@wordpress/eslint-plugin": "2.0.0",
 		"babel-loader": "8.0.5",
 		"cross-env": "5.2.0",
-		"eslint": "5.15.1",
+		"eslint": "5.15.2",
 		"webpack": "4.29.6",
 		"webpack-cli": "3.2.3"
 	},
