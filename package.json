@@ -12,9 +12,9 @@
 	},
 	"devDependencies": {
 		"@babel/core": "7.4.4",
-		"@wordpress/babel-preset-default": "4.1.0",
-		"@wordpress/browserslist-config": "2.3.0",
-		"@wordpress/eslint-plugin": "2.1.0",
+		"@wordpress/babel-preset-default": "4.2.0",
+		"@wordpress/browserslist-config": "2.4.0",
+		"@wordpress/eslint-plugin": "2.2.0",
 		"babel-loader": "8.0.6",
 		"cross-env": "5.2.0",
 		"eslint": "5.16.0",
