@@ -12,7 +12,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "7.6.2",
-		"@wordpress/babel-preset-default": "4.6.0",
+		"@wordpress/babel-preset-default": "4.6.1",
 		"@wordpress/browserslist-config": "2.6.0",
 		"@wordpress/eslint-plugin": "3.1.0",
 		"babel-loader": "8.0.6",
