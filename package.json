@@ -19,7 +19,7 @@
 		"cross-env": "6.0.3",
 		"eslint": "6.6.0",
 		"webpack": "4.41.2",
-		"webpack-cli": "3.3.9"
+		"webpack-cli": "3.3.10"
 	},
 	"babel": {
 		"presets": [
