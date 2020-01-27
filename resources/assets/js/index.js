@@ -28,7 +28,7 @@ class UpdateBody extends Component {
 	componentDidMount() {
 		const wrapper = document.querySelector( '.editor-styles-wrapper' );
 
-		if ( this.props.selectedTemplate ) {
+		if ( wrapper && this.props.selectedTemplate ) {
 			wrapper.classList.add( getCssClassName( this.props.selectedTemplate ) );
 		}
 	}
