@@ -11,11 +11,11 @@
 		"npm": ">=6.0.0"
 	},
 	"devDependencies": {
-		"@babel/core": "7.8.3",
+		"@babel/core": "7.17.10",
 		"@wordpress/babel-preset-default": "4.7.0",
 		"@wordpress/browserslist-config": "2.6.0",
 		"@wordpress/eslint-plugin": "3.2.0",
-		"babel-loader": "8.0.6",
+		"babel-loader": "8.2.5",
 		"cross-env": "7.0.0",
 		"eslint": "6.8.0",
 		"webpack": "4.41.5",
